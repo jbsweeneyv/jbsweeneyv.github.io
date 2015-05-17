@@ -1,7 +1,9 @@
+#headshot {
+	
+	text-align: left;
+}
+
 body {
+	text-align: right;
 	font-size: 25px;
-	color: white;
-	background: black;
-	text-align: center;
-	margin-left: 40%;
 }
