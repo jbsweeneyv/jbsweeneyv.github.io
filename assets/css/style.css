@@ -1,9 +1,77 @@
 #headshot {
-	width: 600px;
-	height: 100%;
+	background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+#name {
+	font-size: 50px;
+	font-weight: 600;
+}
+
+#description {
+	font-style: italic;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#welcome {
+	text-align: center;
+}
+
+.text {
+	max-width: 600px;
+	margin-top: 12px;
+	text-align: left;
+	font-size: 16px;
+}
+
+#last {
+	margin-top: 12px;
+	font-size: 20px;
+	text-align: center;
+}
+
+#final {
+	margin-top: 4px;
+	font-size: 36px;
+	font-weight: 500;
+	font-style: italic;
+	text-align: center;
+}
+
+#table2 {
+	margin: auto;
+	padding: 20px;
+}
+
+#middle {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#photo {
+	margin-left: auto;
+	text-align: center;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	text-align: center;
+}
+
+td {
+	text-align: center;
 }
 
 body {
-	text-align: right;
-	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
 }
