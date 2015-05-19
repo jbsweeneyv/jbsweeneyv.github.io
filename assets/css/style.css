@@ -11,13 +11,13 @@
 }
 
 #text {
-	background-image: url(../img/BigSur.jpg);
+	background-color: #ffffb8;
 	background-position: 45% 50%;
 	overflow: auto;
-	color: white;
 }
 
 #squareone {
+	opacity: .7;
 
 }
 
@@ -45,9 +45,9 @@
 }
 
 #last {
-	margin-top: 12px;
 	font-size: 20px;
 	text-align: center;
+	opacity: .7;
 }
 
 #final {
@@ -56,11 +56,13 @@
 	font-weight: 500;
 	font-style: italic;
 	text-align: center;
+	opacity: .95;
 }
 
 #table2 {
 	margin: auto;
 	padding: 20px;
+	opacity: .8;
 }
 
 #middle {
@@ -71,6 +73,16 @@
 #photo {
 	margin-left: auto;
 	text-align: center;
+}
+
+#part2 {
+	background-color: #00248f;
+	color: white;
+}
+
+#part3 {
+	background-color: #6699ff;
+	color: white;
 }
 
 table {
@@ -84,10 +96,12 @@ td {
 	text-align: center;
 }
 
-a {
-	color: #66CCff;
-}
 
 body {
 	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+}
+
+#coursework {
+	color: white;
 }
